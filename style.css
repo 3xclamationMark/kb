@@ -1,0 +1,55 @@
+*{
+	cursor: none;
+	-webkit-user-select: none;
+}
+
+body{
+	background-color: black;
+}
+
+.cursor {
+  width: 10px;
+  height: 10px;
+	border-radius: 50%;
+  background: white;
+  position: absolute;
+  left: var(--mouse-x);
+  top: var(--mouse-y);
+	box-shadow: 0 0 10px #028500,
+		     0 0 20px #028500,
+		     0 0 40px #028500,
+		     0 0 80px #028500,
+		     0 0 120px #028500,
+		     0 0 160px #028500;
+}
+
+#pimage{
+	min-height: 650px;
+	background-image: url("https://img.freepik.com/premium-photo/fern-leaves-dark-background-jungle-dense-dark-green-fern-leaves-garden-night-nature-abstract-background-fern-tropical-forest-exotic-plant_33867-774.jpg?size=626&ext=jpg&ga=GA1.2.807876569.1659016532");
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#welcome{
+	margin-top: -500px;
+	text-align: center;
+	font-family: 'Cookie', cursive;
+	font-size: 200px;
+	text-shadow: 0 0 20px #03bd00, 0 0 30px #027500;
+	color: white;
+}
+
+#score{
+	color: white;
+	position: fixed;
+	font-family: 'Cormorant', cursive;
+	font-size: 30px;
+	text-shadow: 0 0 20px #03bd00, 0 0 30px #027500;
+}
+
+.rext{
+	position: static;
+	color: #7f977d;
+}
